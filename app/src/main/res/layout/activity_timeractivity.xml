@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AC10C6"
+    tools:context=".TimerActivity">
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginRight="90dp"
+        android:background="#AC10C6"
+        android:gravity="center"
+        android:text="10:00"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/tv2"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="5dp"
+        android:background="#439525"
+        android:hint="START" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/tv2"
+        android:layout_toRightOf="@id/btn1"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="50dp"
+        android:background="#439525"
+        android:hint="RESET" />
+
+
+</RelativeLayout>

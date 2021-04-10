@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#E1B471"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/tv2"
+        android:background="#E1B471"
+        android:gravity="center"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="90dp"/>
+    
+
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/tv1"
+        android:background="#E1B471"
+        android:gravity="center"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="90dp"/>
+
+    <TextView
+        android:id="@+id/hint1"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tv1"
+        android:layout_marginLeft="20dp"
+        android:background="#03A9F4"
+        android:gravity="center"
+        android:hint="First Try" />
+
+    <TextView
+        android:id="@+id/hintview1"
+        android:layout_width="170dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tv1"
+        android:layout_toRightOf="@+id/hint1"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#E1B471"
+        android:gravity="center"
+        android:hint="HINT 1" />
+
+    <TextView
+        android:id="@+id/hint2"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/hint1"
+        android:layout_marginLeft="20dp"
+        android:background="#03A9F4"
+        android:gravity="center"
+        android:hint="Sceond Try" />
+
+    <TextView
+        android:id="@+id/hintview2"
+        android:layout_width="170dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/hintview1"
+        android:layout_toRightOf="@+id/hint2"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#E1B471"
+        android:gravity="center"
+        android:hint="HINT 2" />
+
+    <TextView
+        android:id="@+id/hint3"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/hint2"
+        android:layout_marginLeft="20dp"
+        android:background="#03A9F4"
+        android:gravity="center"
+        android:hint="Third Try" />
+
+    <TextView
+        android:id="@+id/hintview3"
+        android:layout_width="170dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/hintview2"
+        android:layout_toRightOf="@+id/hint3"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#E1B471"
+        android:gravity="center"
+        android:hint="HINT 3" />
+
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="148dp"
+        android:layout_height="35dp"
+        android:background="#C2C6D8"
+        android:layout_below="@+id/hint3"
+        android:layout_marginLeft="65dp"
+        android:inputType="number"
+        android:layout_marginTop="40dp"
+        android:hint="Guess btwn 5 to 10" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/hintview3"
+        android:layout_toRightOf="@+id/hint3"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="10dp"
+        android:background="#579C27B0"
+        android:hint="CHeck" />
+
+
+    <TextView
+        android:id="@+id/Hot"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/et1"
+        android:layout_marginLeft="20dp"
+        android:textColor="#EDDA2F"
+        android:background="#E40808"
+        android:gravity="center"
+        android:hint="HOT" />
+    <TextView
+        android:id="@+id/Cold"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/et1"
+        android:layout_marginLeft="5dp"
+        android:background="#299CCC"
+        android:textColor="#EDDA2F"
+        android:layout_toRightOf="@+id/Hot"
+        android:gravity="center"
+        android:hint="COLD" />
+    <TextView
+        android:id="@+id/Exact"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/et1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:background="#4CAF50"
+        android:textColor="#EDDA2F"
+        android:layout_toRightOf="@+id/Cold"
+        android:gravity="center"
+        android:hint="CORRECT" />
+
+
+
+
+
+
+</RelativeLayout>
